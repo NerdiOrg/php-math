@@ -21,3 +21,7 @@ I will admit, there are not many use cases for such functions.
 * twoObj_travelDistance($speed_one, $distance, $speed_two, $who = NULL)
   * Measures the distance it takes for two objects traveling a set distance, at two set speeds to meet each other (if they are on direct path towards each other)
   * The returned values will tell you how much distance Object 1 or 2 has covered in the time it took for them to meet each other in the middle
+  * Possible Return Values: 
+    1. Array Keys: [1]=>Obj 1 Distance, and [2]=>Obj 2 Distance (this is the return if you do not specify Parameter 4 for Who)
+    1. If you specify 1, you get Obj 1 distance
+    1. If you specify 2, you get Obj 2 distance
